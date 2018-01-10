@@ -35,7 +35,6 @@ var pagination = {
 	},
 
 	showFriends: function (data){
-		console.log(data);
 	  for(i in data){
 	  	$('#friends').append("<li>Name:<b>"+data[i].real_name+"</b> Email: <b>"+data[i].email+"</b>Country: <b>"+data[i].lang.country_name+"</b></li>")
 	  }
